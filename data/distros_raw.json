@@ -1,0 +1,2302 @@
+[
+  {
+    "slug": "cachyos",
+    "url": "https://distrowatch.com/table.php?distribution=cachyos",
+    "name": "CachyOS",
+    "based_on": [
+      "Arch"
+    ],
+    "origin": "Germany",
+    "architecture": [
+      "x86_64",
+      "x86-64-v3"
+    ],
+    "desktop": [
+      "bspwm",
+      "Budgie",
+      "Cinnamon",
+      "COSMIC",
+      "GNOME",
+      "Hyprland",
+      "i3",
+      "KDE Plasma",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "niri",
+      "Openbox",
+      "Qtile",
+      "Sway",
+      "UKUI",
+      "Wayfire",
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a Linux distribution based on Arch Linux. It focuses on speed and security optimisations - the default Linux kernel is heavily optimised using the BORE (Burst-Oriented Response Enhancer) scheduler, while the desktop packages are compiled with LTO, x86-64-v3 and x86-64-v4, Zen 4 optimization, security flags and performance improvements. The available desktop environments, window managers and Wayland compositors include bspwm, Budgie, Cinnamon, COSMIC, GNOME, Hyprland, i3, KDE Plasma, LXDE, LXQt, MATE, Niri, Openbox, Qtile, Sway, UKUI, Wayfire and Xfce. CachyOS also ships with both graphical",
+    "popularity_rank": 1,
+    "hits_per_day": 4143,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "x86_64",
+      "x86-64-v3"
+    ]
+  },
+  {
+    "slug": "mint",
+    "url": "https://distrowatch.com/table.php?distribution=mint",
+    "name": "Linux Mint",
+    "based_on": [
+      "Debian (Stable)",
+      "Ubuntu (LTS)"
+    ],
+    "origin": "Ireland",
+    "architecture": [
+      "i686",
+      "x86_64"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "MATE",
+      "Xfce"
+    ],
+    "category": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "",
+    "popularity_rank": 2,
+    "hits_per_day": 2451,
+    "use_cases": [],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "general_use"
+    ],
+    "architectures": [
+      "i686",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "mx",
+    "url": "https://distrowatch.com/table.php?distribution=mx",
+    "name": "MX Linux",
+    "based_on": [
+      "Debian (Stable)",
+      "antiX"
+    ],
+    "origin": "Greece, USA",
+    "architecture": [
+      "armhf",
+      "i686",
+      "x86_64"
+    ],
+    "desktop": [
+      "Fluxbox",
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "From RAM",
+      "Live Medium",
+      "Old Computers",
+      "Raspberry Pi"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a cooperative venture between the antiX and former MEPIS Linux communities. Using Xfce as the default desktop (with separate KDE Plasma and Fluxbox editions also available), it is a mid-weight operating system designed to combine an elegant and efficient desktop with simple configuration, high stability, solid performance and medium-sized footprint.\n    \nPopularity (hits per day): 12 months: 3 (1,952), 6 months: 3 (2,012), 3 months: 3 (1,859), 4 weeks: 3 (1,807), 1 week: 3 (1,907)Average visitor rating: 8.1/10 from 813 review(s).\n\n\n\n\n\n\nMX Linux Summary\n\n\nDistribution\nMX Linux\n\n\nHome Page\nh",
+    "popularity_rank": 3,
+    "hits_per_day": 1952,
+    "use_cases": [
+      "customization"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization"
+    ],
+    "architectures": [
+      "armhf",
+      "i686",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "debian",
+    "url": "https://distrowatch.com/table.php?distribution=debian",
+    "name": "Debian",
+    "based_on": [
+      "Independent"
+    ],
+    "origin": "Global",
+    "architecture": [
+      "aarch64",
+      "armhf",
+      "ppc64el",
+      "riscv",
+      "s390x",
+      "x86_64"
+    ],
+    "desktop": [
+      "AfterStep",
+      "Awesome",
+      "Blackbox",
+      "bspwm",
+      "Budgie",
+      "Cinnamon",
+      "dwm",
+      "Enlightenment",
+      "Fluxbox",
+      "flwm",
+      "FVWM",
+      "GNOME",
+      "i3",
+      "IceWM",
+      "JWM",
+      "KDE Plasma",
+      "labwc",
+      "Lomiri",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Metacity",
+      "Openbox",
+      "pekwm",
+      "Qtile",
+      "Ratpoison",
+      "Sway",
+      "TWM",
+      "UKUI",
+      "Wayfire",
+      "WMaker",
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a completely free piece of software started by Linus Torvalds and supported by thousands of programmers worldwide. Of course, the thing that people want is application software: programs to help them get what they want to do done, from editing documents to running a business to playing games to writing more software. Debian comes with over 50,000 packages (precompiled software that is bundled up in a nice format for easy installation on your machine) - all of it free. It's a bit like a tower. At the base is the kernel. On top of that are all the basic tools. Next is all the software that y",
+    "popularity_rank": 4,
+    "hits_per_day": 1555,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "aarch64",
+      "armhf",
+      "ppc64el",
+      "riscv",
+      "s390x",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "popos",
+    "url": "https://distrowatch.com/table.php?distribution=popos",
+    "name": "Pop!_OS",
+    "based_on": [
+      "Debian",
+      "Ubuntu (LTS)"
+    ],
+    "origin": "USA",
+    "architecture": [
+      "aarch64",
+      "x86_64"
+    ],
+    "desktop": [
+      "COSMIC",
+      "GNOME"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "",
+    "popularity_rank": 5,
+    "hits_per_day": 1383,
+    "use_cases": [
+      "servers",
+      "stability",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "servers",
+      "stability",
+      "modern_ui"
+    ],
+    "architectures": [
+      "aarch64",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "endeavour",
+    "url": "https://distrowatch.com/table.php?distribution=endeavour",
+    "name": "EndeavourOS",
+    "based_on": [
+      "Arch"
+    ],
+    "origin": "Netherlands",
+    "architecture": [
+      "aarch64",
+      "x86_64"
+    ],
+    "desktop": [
+      "Budgie",
+      "Cinnamon",
+      "GNOME",
+      "i3",
+      "KDE Plasma",
+      "LXQt",
+      "MATE",
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a rolling-release Linux distribution based on Arch Linux. The project aims to be a spiritual successor to Antergos, providing an easy setup and a pre-configured desktop environment on an Arch base. EndeavourOS offers both off-line and on-line install options. The off-line installer, Calamares, uses the KDE Plasma desktop by default. The on-line installer can install optional software components, including most popular desktop environments.\n    \nPopularity (hits per day): 12 months: 6 (1,301), 6 months: 7 (1,243), 3 months: 9 (1,124), 4 weeks: 10 (1,057), 1 week: 12 (949)Average visitor rat",
+    "popularity_rank": 6,
+    "hits_per_day": 1301,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "aarch64",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "zorin",
+    "url": "https://distrowatch.com/table.php?distribution=zorin",
+    "name": "Zorin OS",
+    "based_on": [
+      "Debian",
+      "Ubuntu (LTS)"
+    ],
+    "origin": "Ireland",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "GNOME",
+      "Xfce"
+    ],
+    "category": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "",
+    "popularity_rank": 7,
+    "hits_per_day": 1222,
+    "use_cases": [
+      "servers",
+      "stability",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "servers",
+      "stability",
+      "modern_ui"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "fedora",
+    "url": "https://distrowatch.com/table.php?distribution=fedora",
+    "name": "Fedora",
+    "based_on": [
+      "Independent"
+    ],
+    "origin": "USA",
+    "architecture": [
+      "aarch64",
+      "arm",
+      "ppc64le",
+      "s390x",
+      "x86_64"
+    ],
+    "desktop": [
+      "Awesome",
+      "Budgie",
+      "Cinnamon",
+      "Enlightenment",
+      "i3",
+      "GNOME",
+      "KDE Plasma",
+      "labwc",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Openbox",
+      "Ratpoison",
+      "Wayfire",
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "Immutable",
+      "Server",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a Linux distribution developed by the community-supported Fedora Project and owned by Red Hat. Fedora Linux contains software distributed under a free and open-source license and aims to be on the leading edge of such technologies. Fedora has a reputation for focusing on innovation, integrating new technologies early on and working closely with upstream Linux communities. The default desktop in Fedora Linux is the GNOME desktop environment and the default interface is the GNOME Shell. Other desktop environments, including KDE, Xfce, LXDE, MATE and Cinnamon, are available. The Fedora projec",
+    "popularity_rank": 8,
+    "hits_per_day": 1113,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "aarch64",
+      "arm",
+      "ppc64le",
+      "s390x",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "manjaro",
+    "url": "https://distrowatch.com/table.php?distribution=manjaro",
+    "name": "Manjaro Linux",
+    "based_on": [
+      "Arch"
+    ],
+    "origin": "Austria, France, Germany",
+    "architecture": [
+      "aarch64",
+      "x86_64"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "i3",
+      "KDE Plasma",
+      "labwc",
+      "MATE",
+      "Sway",
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a fast, user-friendly, desktop-oriented operating system based on Arch Linux. Key features include intuitive installation process, automatic hardware detection, stable rolling-release model, ability to install multiple kernels, special Bash scripts for managing graphics drivers and extensive desktop configurability. Manjaro Linux offers Xfce as the core desktop options, as well as KDE, GNOME and a minimalist Net edition for more advanced users. Community-supported desktop flavours are also available. \n    \nPopularity (hits per day): 12 months: 9 (1,091), 6 months: 9 (1,091), 3 months: 11 (",
+    "popularity_rank": 9,
+    "hits_per_day": 1091,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "aarch64",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "ubuntu",
+    "url": "https://distrowatch.com/table.php?distribution=ubuntu",
+    "name": "Ubuntu",
+    "based_on": [
+      "Debian"
+    ],
+    "origin": "Isle of Man",
+    "architecture": [
+      "aarch64",
+      "armhf",
+      "ppc64el",
+      "riscv",
+      "s390x",
+      "x86_64"
+    ],
+    "desktop": [
+      "GNOME",
+      "Unity"
+    ],
+    "category": [
+      "Beginners",
+      "Desktop",
+      "Immutable",
+      "Server",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a complete desktop Linux operating system, freely available with both community and professional support. The Ubuntu community is built on the ideas enshrined in the Ubuntu Manifesto: that software should be available free of charge, that software tools should be usable by people in their local language and despite any disabilities, and that people should have the freedom to customise and alter their software in whatever way they see fit. \"Ubuntu\" is an ancient African word, meaning \"humanity to others\". The Ubuntu distribution brings the spirit of Ubuntu to the software world.\n    \nPopula",
+    "popularity_rank": 10,
+    "hits_per_day": 1066,
+    "use_cases": [
+      "servers",
+      "stability",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "servers",
+      "stability",
+      "modern_ui"
+    ],
+    "architectures": [
+      "aarch64",
+      "armhf",
+      "ppc64el",
+      "riscv",
+      "s390x",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "anduin",
+    "url": "https://distrowatch.com/table.php?distribution=anduin",
+    "name": "AnduinOS",
+    "based_on": [
+      "Debian",
+      "Ubuntu"
+    ],
+    "origin": "Hong Kong",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "",
+    "popularity_rank": 11,
+    "hits_per_day": 885,
+    "use_cases": [
+      "servers",
+      "stability",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "servers",
+      "stability",
+      "modern_ui"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "opensuse",
+    "url": "https://distrowatch.com/table.php?distribution=opensuse",
+    "name": "openSUSE",
+    "based_on": [
+      "Independent"
+    ],
+    "origin": "Germany",
+    "architecture": [
+      "aarch64",
+      "armhf",
+      "i686",
+      "ppc64",
+      "ppc64el",
+      "s390x",
+      "x86_64"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "Enlightenment",
+      "GNOME",
+      "IceWM",
+      "KDE Plasma",
+      "labwc",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Wayfire",
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "Immutable",
+      "Server",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a community program sponsored by SUSE Linux and other companies. Promoting the use of Linux everywhere, this program provides free, easy access to openSUSE, a complete Linux distribution. The openSUSE project has three main goals: make openSUSE the easiest Linux for anyone to obtain and the most widely used Linux distribution; leverage open source collaboration to make openSUSE the world's most usable Linux distribution and desktop environment for new and experienced Linux users; dramatically simplify and open the development and packaging processes to make openSUSE the platform of choice",
+    "popularity_rank": 12,
+    "hits_per_day": 751,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "aarch64",
+      "armhf",
+      "i686",
+      "ppc64",
+      "ppc64el",
+      "s390x",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "nobara",
+    "url": "https://distrowatch.com/table.php?distribution=nobara",
+    "name": "Nobara Project",
+    "based_on": [
+      "Fedora"
+    ],
+    "origin": "USA",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma"
+    ],
+    "category": [
+      "Desktop",
+      "Gaming",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a modified version of Fedora Linux with user-friendly fixes added to it. The distribution comes with certain features that do not ship with the regular Fedora, such as WINE dependencies, OBS Studio, 3rd party codec packages for GStreamer, NVIDIA drivers, and some package fixes. Nobara aims to fix most of those issues and offer a better gaming, streaming and content creation experience out of the box. The project's official release comes with a custom-themed GNOME desktop, but it also offers separate editions with standard GNOME and KDE desktops.\n    \nPopularity (hits per day): 12 months: 1",
+    "popularity_rank": 13,
+    "hits_per_day": 698,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "bazzite",
+    "url": "https://distrowatch.com/table.php?distribution=bazzite",
+    "name": "Bazzite",
+    "based_on": [
+      "Fedora"
+    ],
+    "origin": "Global",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma"
+    ],
+    "category": [
+      "Desktop",
+      "Gaming",
+      "Immutable",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "",
+    "popularity_rank": 14,
+    "hits_per_day": 636,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "arch",
+    "url": "https://distrowatch.com/table.php?distribution=arch",
+    "name": "Arch Linux",
+    "based_on": [
+      "Independent"
+    ],
+    "origin": "Canada",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "Enlightenment",
+      "GNOME",
+      "KDE",
+      "labwc",
+      "LXDE",
+      "MATE",
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "Server"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a very good distribution, as everything is up to date. The latest packages are there. The AUR is vast, so if you can't find a package you're looking for in the repos, the AUR is always there. Just be cautious when using the AUR as some packages may be malicious or broken. Arch rarely breaks the bootloader, the past 4 years using Arch, I never had an unbootable system. \r Arch may be customizable and up to date, but in some cases this is it's downside. Some desktop environments are stable like XFCE and some like KDE break with updates. KDE freezes randomly, the glitch has been tamed, but it",
+    "popularity_rank": 15,
+    "hits_per_day": 592,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "nixos",
+    "url": "https://distrowatch.com/table.php?distribution=nixos",
+    "name": "NixOS",
+    "based_on": [
+      "Independent"
+    ],
+    "origin": "Netherlands",
+    "architecture": [
+      "aarch64",
+      "x86_64"
+    ],
+    "desktop": [
+      "Awesome",
+      "COSMIC",
+      "Enlightenment",
+      "Fluxbox",
+      "GNOME",
+      "i3",
+      "IceWM",
+      "KDE Plasma",
+      "labwc",
+      "LXQt",
+      "Ratpoison",
+      "Wayfire",
+      "Xfce"
+    ],
+    "category": [
+      "Declarative",
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a complete paradigm shift in operating system management. After years of dealing with configuration drift, broken updates, and the fear of experimenting on a production system, NixOS has provided a level of control and reliability I did not think was possible.\rThe core concept of a single configuration file describing the entire system state is deceptively simple but incredibly powerful. Every package, every system service, every kernel parameter is declared in one place. Rebuilding the system is an atomic operation. If an update fails or a configuration change breaks something, you do not",
+    "popularity_rank": 16,
+    "hits_per_day": 564,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "aarch64",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "biglinux",
+    "url": "https://distrowatch.com/table.php?distribution=biglinux",
+    "name": "BigLinux",
+    "based_on": [
+      "Arch",
+      "Manjaro"
+    ],
+    "origin": "Brazil",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "category": [],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a Brazilian Linux distribution localised into Brazilian Portuguese (with support for English). It is was originally based on Kubuntu, but starting from 2017 the distribution was re-born based on deepin. It then offered two desktop environments - Cinnamon and Deepin. In 2021 the distribution switched bases and desktop environments again, migrating to Manjaro Linux and using the KDE Plasma desktop.\n    \nPopularity (hits per day): 12 months: 17 (561), 6 months: 17 (598), 3 months: 18 (625), 4 weeks: 14 (758), 1 week: 24 (566)Average visitor rating: 9.1/10 from 132 review(s).\n\n\n\n\n\n\nBigLinux Su",
+    "popularity_rank": 17,
+    "hits_per_day": 561,
+    "use_cases": [
+      "customization"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "antix",
+    "url": "https://distrowatch.com/table.php?distribution=antix",
+    "name": "antiX",
+    "based_on": [
+      "Debian (Stable)"
+    ],
+    "origin": "Greece",
+    "architecture": [
+      "i686",
+      "x86_64"
+    ],
+    "desktop": [
+      "Fluxbox",
+      "IceWM",
+      "JWM"
+    ],
+    "category": [
+      "From RAM",
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a fast, lightweight and easy-to-install Linux live CD distribution based on Debian's \"Stable\" branch for x86 compatible systems. antiX offers users the \"antiX Magic\" in an environment suitable for old computers. The goal of antiX is to provide a light, but fully functional and flexible free operating system for both newcomers and experienced users of Linux. It should run on most computers, ranging from 256 MB old PIII systems with pre-configured swap to the latest powerful boxes. 256 MB RAM is recommended minimum for antiX. The installer needs minimum 2.7 GB hard disk size. antiX can also",
+    "popularity_rank": 18,
+    "hits_per_day": 555,
+    "use_cases": [],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "general_use"
+    ],
+    "architectures": [
+      "i686",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "elementary",
+    "url": "https://distrowatch.com/table.php?distribution=elementary",
+    "name": "elementary OS",
+    "based_on": [
+      "Debian",
+      "Ubuntu (LTS)"
+    ],
+    "origin": "USA",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "Pantheon"
+    ],
+    "category": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "",
+    "popularity_rank": 19,
+    "hits_per_day": 555,
+    "use_cases": [
+      "servers",
+      "stability"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "servers",
+      "stability"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "bluestar",
+    "url": "https://distrowatch.com/table.php?distribution=bluestar",
+    "name": "Bluestar Linux",
+    "based_on": [
+      "Arch"
+    ],
+    "origin": "Germany",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a GNU/Linux distribution that is based on Arch Linux. The Bluestar distribution features up to date packages, a full range of desktop and multimedia software in the default installation and a live desktop DVD.\n    \nPopularity (hits per day): 12 months: 20 (543), 6 months: 23 (470), 3 months: 29 (379), 4 weeks: 53 (298), 1 week: 73 (242)Average visitor rating: 5.2/10 from 29 review(s).\n\n\n\n\n\n\nBluestar Summary\n\n\nDistribution\nBluestar Linux\n\n\nHome Page\nhttps://sourceforge.net/projects/bluestarlinux/\n\n\nMailing Lists\n--\n\n\nUser Forums\nhttps://sourceforge.net/p/bluestarlinux/discussion/\n\n\nAlternat",
+    "popularity_rank": 20,
+    "hits_per_day": 543,
+    "use_cases": [
+      "customization"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "kdeneon",
+    "url": "https://distrowatch.com/table.php?distribution=kdeneon",
+    "name": "KDE neon",
+    "based_on": [
+      "Debian",
+      "Ubuntu (LTS)"
+    ],
+    "origin": "United Kingdom",
+    "architecture": [
+      "aarch64",
+      "x86_64"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a Ubuntu-based Linux distribution and live DVD featuring the latest KDE Plasma desktop and other KDE community software. Besides the installable DVD image, the project provides a rapidly-evolving software repository with all the latest KDE software. Two editions of the product are available - a \"User\" edition, designed for those interested in checking out the latest KDE software as it gets released, and a \"Developer's\" edition, created as a platform for testing cutting-edge KDE applications.\n    \nPopularity (hits per day): 12 months: 21 (500), 6 months: 24 (458), 3 months: 26 (432), 4 week",
+    "popularity_rank": 21,
+    "hits_per_day": 500,
+    "use_cases": [
+      "servers",
+      "stability",
+      "customization"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "servers",
+      "stability",
+      "customization"
+    ],
+    "architectures": [
+      "aarch64",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "pikaos",
+    "url": "https://distrowatch.com/table.php?distribution=pikaos",
+    "name": "PikaOS Linux",
+    "based_on": [
+      "Debian (Unstable)"
+    ],
+    "origin": "United Kingdom",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "COSMIC",
+      "GNOME",
+      "Hyprland",
+      "KDE Plasma",
+      "niri"
+    ],
+    "category": [
+      "Desktop",
+      "Gaming",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a Linux distribution based on Debian's cutting-edge \"Unstable\" branch, optimised for gaming. It is designed to provide out-of-the-box gaming experience, excellent performance with up-to-date drivers and custom-tweaked Linux kernel, and a choice of GNOME or KDE Plasma desktops, with separate editions that use the Hyprland Wayland compositor.\n    \nPopularity (hits per day): 12 months: 22 (498), 6 months: 18 (596), 3 months: 16 (630), 4 weeks: 16 (698), 1 week: 18 (676)Average visitor rating: 9.1/10 from 42 review(s).\n\n\n\n\n\n\nPikaOS Summary\n\n\nDistribution\nPikaOS Linux\n\n\nHome Page\nhttp://pika-os",
+    "popularity_rank": 22,
+    "hits_per_day": 498,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "q4os",
+    "url": "https://distrowatch.com/table.php?distribution=q4os",
+    "name": "Q4OS",
+    "based_on": [
+      "Debian (Stable)"
+    ],
+    "origin": "Czechia",
+    "architecture": [
+      "i686",
+      "x86_64"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "Trinity"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a Debian-based desktop Linux distribution offering a choice of a classic-style user interface (Trinity) and a modern desktop environment (KDE Plasma). The project also develops various utilities, such as Desktop Profiler and Software Center, as well as installers for third-party applications.\n    \nPopularity (hits per day): 12 months: 23 (462), 6 months: 21 (480), 3 months: 24 (484), 4 weeks: 28 (447), 1 week: 40 (387)Average visitor rating: 8.7/10 from 195 review(s).\n\n\n\n\n\n\nQ4OS Summary\n\n\nDistribution\nQ4OS\n\n\nHome Page\nhttps://q4os.org/\n\n\nMailing Lists\n--\n\n\nUser Forums\nhttps://www.q4os.org/",
+    "popularity_rank": 23,
+    "hits_per_day": 462,
+    "use_cases": [
+      "customization"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization"
+    ],
+    "architectures": [
+      "i686",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "garuda",
+    "url": "https://distrowatch.com/table.php?distribution=garuda",
+    "name": "Garuda Linux",
+    "based_on": [
+      "Arch"
+    ],
+    "origin": "Germany",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "Hyprland",
+      "i3",
+      "KDE Plasma",
+      "Mokka",
+      "Sway",
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a rolling distribution based on the Arch Linux operating system. Unlike Arch Linux, Garuda Linux comes with a graphical installer (Calamares) for easy installation, and other advanced graphical tools for managing your system. Garuda is a performance-oriented distro with many performance enhancing tweaks. Some of the many tweaks include using zram, a performance CPU governor, along with custom memory management software. Garuda Linux has striven to provide system stability by including the Timeshift backup utility.\n    \nPopularity (hits per day): 12 months: 24 (434), 6 months: 29 (392), 3 m",
+    "popularity_rank": 24,
+    "hits_per_day": 434,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "freebsd",
+    "url": "https://distrowatch.com/table.php?distribution=freebsd",
+    "name": "FreeBSD",
+    "based_on": [
+      "Independent"
+    ],
+    "origin": "USA",
+    "architecture": [
+      "arm",
+      "aarch64",
+      "armel",
+      "i486",
+      "ia64",
+      "mips",
+      "mipsel",
+      "sparc64",
+      "pc98",
+      "powerpc",
+      "ppc64",
+      "ps3",
+      "x86_64",
+      "xbox"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "KDE Plasma",
+      "labwc",
+      "LXQt",
+      "MATE",
+      "Wayfire",
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "Firewall",
+      "Raspberry Pi",
+      "Server"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a UNIX-like operating system for the i386, amd64, IA-64, arm, MIPS, powerpc, ppc64, PC-98 and UltraSPARC platforms based on U.C. Berkeley's \"4.4BSD-Lite\" release, with some \"4.4BSD-Lite2\" enhancements. It is also based indirectly on William Jolitz's port of U.C. Berkeley's \"Net/2\" to the i386, known as \"386BSD\", though very little of the 386BSD code remains. FreeBSD is used by companies, Internet Service Providers, researchers, computer professionals, students and home users all over the world in their work, education and recreation. FreeBSD comes with over 20,000 packages (pre-compiled so",
+    "popularity_rank": 25,
+    "hits_per_day": 407,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "arm",
+      "aarch64",
+      "armel",
+      "i486",
+      "ia64",
+      "mips",
+      "mipsel",
+      "sparc64",
+      "pc98",
+      "powerpc",
+      "ppc64",
+      "ps3",
+      "x86_64",
+      "xbox"
+    ]
+  },
+  {
+    "slug": "kali",
+    "url": "https://distrowatch.com/table.php?distribution=kali",
+    "name": "Kali Linux",
+    "based_on": [
+      "Debian (Testing)"
+    ],
+    "origin": "Gibraltar",
+    "architecture": [
+      "aarch64",
+      "x86_64"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "category": [
+      "Data Rescue",
+      "Forensics",
+      "Live Medium",
+      "Raspberry Pi",
+      "Security"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a Debian-based distribution with a collection of security and forensics tools. It features timely security updates, support for the ARM architecture, a choice of four popular desktop environments, and seamless upgrades to newer versions.\n    \nPopularity (hits per day): 12 months: 26 (394), 6 months: 32 (373), 3 months: 32 (371), 4 weeks: 52 (301), 1 week: 62 (289)Average visitor rating: 9.4/10 from 49 review(s).\n\n\n\n\n\n\nKali Summary\n\n\nDistribution\nKali Linux (formerly BackTrack)\n\n\nHome Page\nhttps://www.kali.org/\n\n\nMailing Lists\n--\n\n\nUser Forums\nhttps://forums.kali.org/\n\n\nAlternative User For",
+    "popularity_rank": 26,
+    "hits_per_day": 394,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "aarch64",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "tuxedo",
+    "url": "https://distrowatch.com/table.php?distribution=tuxedo",
+    "name": "TUXEDO OS",
+    "based_on": [
+      "Debian",
+      "Ubuntu (LTS)"
+    ],
+    "origin": "Germany",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "category": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a weird intermittent freeze of the UI for few seconds. I used defaults for file system (lvm2+ext4) and do have disk encryption on it, but other Linux installs (like Mint) did not have same issues (even with ZFS) on the same hardware. Other machines I have TUXEDO installed on, do not have same issue.\r Overall, I am pretty satisfied. Taking one star due to weak community support and few issues I mentioned.\r\n\n\n\nWas this review helpful?  Yes \n No \n\n\n\n\n\n\nSee all 59 reader reviews of TUXEDO OS...",
+    "popularity_rank": 27,
+    "hits_per_day": 392,
+    "use_cases": [
+      "servers",
+      "stability",
+      "customization"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "servers",
+      "stability",
+      "customization"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "minios",
+    "url": "https://distrowatch.com/table.php?distribution=minios",
+    "name": "MiniOS",
+    "based_on": [
+      "Debian (Stable)"
+    ],
+    "origin": "Russia",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "category": [
+      "Data Rescue",
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a Debian-based Linux distribution which strives to be lightweight, modular, versatile and customisable. It comes in three editions, \"Standard\", \"Toolbox\" and \"Ultra\". MiniOS \"Standard\" is a compact system designed for everyday computing tasks, while \"Toolbox\" is designed for maintenance, diagnostics and recovery of computer systems; it provides a rich set of graphical and console tools for working with disks and partitions, network diagnostics and administration, data security, data and password recovery, hardware fault diagnosis and testing, as well as other utilities. Finally, the \"Ultra",
+    "popularity_rank": 28,
+    "hits_per_day": 389,
+    "use_cases": [],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "general_use"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "sparky",
+    "url": "https://distrowatch.com/table.php?distribution=sparky",
+    "name": "SparkyLinux",
+    "based_on": [
+      "Debian (Stable)",
+      "Debian (Testing)"
+    ],
+    "origin": "Poland",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "LXQt",
+      "MATE",
+      "Openbox",
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a set of Debian-based desktop Linux distributions. The project provides separate editions with KDE Plasma, LXQt, MATE and Xfce desktops, as well as a lightweight flavour featuring the Openbox window manager. It offers two variants of its products - a conservative one based on Debian's \"Stable\" branch, and a more up-to-date one derived from Debian \"Testing\".\n    \nPopularity (hits per day): 12 months: 29 (388), 6 months: 31 (380), 3 months: 27 (395), 4 weeks: 51 (303), 1 week: 27 (552)Average visitor rating: 8.2/10 from 120 review(s).\n\n\n\n\n\n\nSparkyLinux Summary\n\n\nDistribution\nSparkyLinux\n\n\nHo",
+    "popularity_rank": 29,
+    "hits_per_day": 388,
+    "use_cases": [
+      "customization"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "puppy",
+    "url": "https://distrowatch.com/table.php?distribution=puppy",
+    "name": "Puppy Linux",
+    "based_on": [
+      "Independent"
+    ],
+    "origin": "Australia",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "JWM",
+      "labwc",
+      "Openbox"
+    ],
+    "category": [
+      "Desktop",
+      "From RAM",
+      "Old Computers",
+      "Live Medium",
+      "Netbooks"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a long way from being ready for Prime Time.  As a matter of fact PuppyLinux really has not been PuppyLinux since BionicPup; Xenial was the last true Pup.  Deja Moo of Opera 12, we've seen this bull before.\r That said both computers ran well and everything more or less worked.  The Gateway ran cooler than the other OSes on it, and the mini as a fanless did very well.  The WM needs to be chosen to get a right click menu, not the Wayland menu.  Drive icons not accessible on either computer.  Autohide taskbar not available likewise; editing the tb file, if you know how, might fix that -- it's",
+    "popularity_rank": 30,
+    "hits_per_day": 369,
+    "use_cases": [],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "general_use"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "alpine",
+    "url": "https://distrowatch.com/table.php?distribution=alpine",
+    "name": "Alpine Linux",
+    "based_on": [
+      "Independent"
+    ],
+    "origin": "Norway",
+    "architecture": [
+      "aarch64",
+      "armv7",
+      "i486",
+      "loongarch64",
+      "ppc64le",
+      "riscv64",
+      "s390x",
+      "x86_64"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma",
+      "LXQt",
+      "MATE",
+      "Sway",
+      "Xfce"
+    ],
+    "category": [
+      "Firewall",
+      "From RAM",
+      "Raspberry Pi",
+      "Server",
+      "Security",
+      "Telephony"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a community developed operating system designed for routers, firewalls, VPNs, VoIP boxes, containers, and servers. It was designed with security in mind; it has proactive security features like PaX and SSP that prevent security holes in the software to be exploited. The C library used is musl and the base tools are all in BusyBox. Those are normally found in embedded systems and are smaller than the tools found in GNU/Linux systems.\n    \nPopularity (hits per day): 12 months: 31 (355), 6 months: 34 (369), 3 months: 41 (321), 4 weeks: 39 (347), 1 week: 68 (260)Average visitor rating: 8.9/10",
+    "popularity_rank": 31,
+    "hits_per_day": 355,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "aarch64",
+      "armv7",
+      "i486",
+      "loongarch64",
+      "ppc64le",
+      "riscv64",
+      "s390x",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "alma",
+    "url": "https://distrowatch.com/table.php?distribution=alma",
+    "name": "AlmaLinux OS",
+    "based_on": [
+      "Fedora",
+      "Red Hat"
+    ],
+    "origin": "USA",
+    "architecture": [
+      "aarch64",
+      "ppc64le",
+      "s390x",
+      "x86_64"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma",
+      "MATE",
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "Server",
+      "Raspberry Pi"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a completely binary compatible fork of RHEL and it is maintained by AlmaLinux OS Foundation which is a register non-profit.\n    \nPopularity (hits per day): 12 months: 32 (349), 6 months: 51 (281), 3 months: 59 (262), 4 weeks: 48 (322), 1 week: 65 (283)Average visitor rating: 8.0/10 from 71 review(s).\n\n\n\n\n\n\nAlmaLinux OS Summary\n\n\nDistribution\nAlmaLinux OS\n\n\nHome Page\nhttps://almalinux.org/\n\n\nMailing Lists\nhttps://lists.almalinux.org/mailman3/lists/\n\n\nUser Forums\n--\n\n\nAlternative User Forums\nDiscourse • \n\n\nDocumentation\nhttps://wiki.almalinux.org/\n\n\nScreenshots\n DistroWatch Gallery\n\n\nScreenc",
+    "popularity_rank": 32,
+    "hits_per_day": 349,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "aarch64",
+      "ppc64le",
+      "s390x",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "artix",
+    "url": "https://distrowatch.com/table.php?distribution=artix",
+    "name": "Artix Linux",
+    "based_on": [
+      "Arch"
+    ],
+    "origin": "Global",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a fork (or continuation as an autonomous project) of the Arch-OpenRC and Manjaro-OpenRC projects. Artix Linux offers a lightweight, rolling-release operating system featuring the OpenRC init software. (Alternative spins feature the runit and s6 init software.) Several editions of Artix Linux are available, featuring either a plain command line or one of several desktop environments.\n    \nPopularity (hits per day): 12 months: 33 (342), 6 months: 26 (435), 3 months: 19 (605), 4 weeks: 12 (857), 1 week: 14 (786)Average visitor rating: 9.2/10 from 244 review(s).\n\n\n\n\n\n\nArtix Linux Summary\n\n\nDis",
+    "popularity_rank": 33,
+    "hits_per_day": 342,
+    "use_cases": [
+      "customization"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "omarchy",
+    "url": "https://distrowatch.com/table.php?distribution=omarchy",
+    "name": "Omarchy",
+    "based_on": [
+      "Arch"
+    ],
+    "origin": "Denmark",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "Hyprland"
+    ],
+    "category": [
+      "Desktop",
+      "Immutable"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a startlingly fast deployment that practically skips the traditional friction of OS installation. You boot from the installation media, follow a few exceptionally clear prompts, and before your coffee even has time to cool, you are staring at a clean, responsive desktop. This blazing-fast setup makes it not just perfect for bleeding-edge workstations, but also an absolute dream for breathing new life into older, aging hardware. If you are looking to revitalize something like a classic 2009-era laptop or an older tower and turn it into a dedicated, high-performance coding machine, Omarchy h",
+    "popularity_rank": 34,
+    "hits_per_day": 335,
+    "use_cases": [],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "general_use"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "pclinuxos",
+    "url": "https://distrowatch.com/table.php?distribution=pclinuxos",
+    "name": "PCLinuxOS",
+    "based_on": [
+      "Independent"
+    ],
+    "origin": "USA",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "labwc",
+      "MATE",
+      "Xfce"
+    ],
+    "category": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a user-friendly Linux distribution with out-of-the-box support for many popular graphics and sound cards, as well as other peripheral devices. The bootable live DVD provides an easy-to-use graphical installer and the distribution sports a wide range of popular applications for the typical desktop user, including browser plugins and full multimedia playback. The intuitive system configuration tools include Synaptic for package management, Addlocale to add support to many languages and Mylivecd to create a customised live CD.\n    \nPopularity (hits per day): 12 months: 35 (329), 6 months: 45",
+    "popularity_rank": 35,
+    "hits_per_day": 329,
+    "use_cases": [
+      "customization"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "tails",
+    "url": "https://distrowatch.com/table.php?distribution=tails",
+    "name": "Tails",
+    "based_on": [
+      "Debian (Stable)"
+    ],
+    "origin": "Ireland",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "category": [
+      "From RAM",
+      "Live Medium",
+      "Privacy",
+      "Security"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a Debian-based live DVD/USB with the goal of providing complete Internet anonymity for the user. The product ships with several Internet applications, including web browser, IRC client, mail client and instant messenger, all pre-configured with security in mind and with all traffic anonymised. To achieve this, Incognito uses the Tor network to make Internet traffic very hard to trace.\n    \nPopularity (hits per day): 12 months: 36 (325), 6 months: 37 (331), 3 months: 36 (345), 4 weeks: 34 (391), 1 week: 53 (338)Average visitor rating: 5.7/10 from 23 review(s).\n\n\n\n\n\n\nTails Summary\n\n\nDistribu",
+    "popularity_rank": 36,
+    "hits_per_day": 325,
+    "use_cases": [
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "modern_ui"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "centos",
+    "url": "https://distrowatch.com/table.php?distribution=centos",
+    "name": "CentOS",
+    "based_on": [
+      "Fedora",
+      "Red Hat"
+    ],
+    "origin": "USA",
+    "architecture": [
+      "aarch64",
+      "ppc64le",
+      "x86_64",
+      "x86-64-v2"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a community of open source contributors and users which started in 2003 and has been sponsored by Red Hat since 2014. CentOS Linux versions up to CentOS Linux 8 are 100% compatible rebuilds of Red Hat Enterprise Linux, in full compliance with Red Hat's redistribution requirements. In 2020 it was announced CentOS Linux is being discontinued and replaced with CentOS Stream, a developer-focused distribution which acts as a middle-stream between Fedora and Red Hat Enterprise Linux.\n    \nPopularity (hits per day): 12 months: 37 (324), 6 months: 38 (330), 3 months: 42 (320), 4 weeks: 72 (238), 1",
+    "popularity_rank": 37,
+    "hits_per_day": 324,
+    "use_cases": [
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "modern_ui"
+    ],
+    "architectures": [
+      "aarch64",
+      "ppc64le",
+      "x86_64",
+      "x86-64-v2"
+    ]
+  },
+  {
+    "slug": "devuan",
+    "url": "https://distrowatch.com/table.php?distribution=devuan",
+    "name": "Devuan GNU+Linux",
+    "based_on": [
+      "Debian"
+    ],
+    "origin": "Global",
+    "architecture": [
+      "aarch64",
+      "armel",
+      "armhf",
+      "i686",
+      "x86_64"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "KDE Plasma",
+      "labwc",
+      "LXQt",
+      "MATE",
+      "Wayfire",
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium",
+      "Server",
+      "Raspberry Pi"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a Linux distribution forked from Debian in 2015. The project's primary goal is to provide a variant of Debian without the complexities and dependencies of systemd, an init system and services manager originally developed by Red Hat and later adopted by most other Linux distributions. Devuan's initial beta release was made available in April 2016, together with an upgrade path from Debian 7.0 \"Wheezy\" and a possibility to switch to Devuan from Debian 8.0 \"Jessie\". The distribution adopted Xfce as its default desktop.\n    \nPopularity (hits per day): 12 months: 38 (315), 6 months: 40 (325), 3",
+    "popularity_rank": 38,
+    "hits_per_day": 315,
+    "use_cases": [
+      "servers",
+      "stability",
+      "customization"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "servers",
+      "stability",
+      "customization"
+    ],
+    "architectures": [
+      "aarch64",
+      "armel",
+      "armhf",
+      "i686",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "kubuntu",
+    "url": "https://distrowatch.com/table.php?distribution=kubuntu",
+    "name": "Kubuntu",
+    "based_on": [
+      "Debian",
+      "Ubuntu"
+    ],
+    "origin": "Isle of Man",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a free, user-friendly Linux distribution based on KDE's desktop software and on the Ubuntu operating system. It has a biannual release cycle. Besides providing an up-to-date version of the KDE desktop at the time of the release, the project also releases updated KDE packages throughout the lifetime of each release.\n    \nPopularity (hits per day): 12 months: 39 (315), 6 months: 41 (325), 3 months: 39 (335), 4 weeks: 30 (421), 1 week: 67 (272)Average visitor rating: 8.3/10 from 132 review(s).\n\n\n\n\n\n\nKubuntu Summary\n\n\nDistribution\nKubuntu\n\n\nHome Page\nhttps://kubuntu.org/\n\n\nMailing Lists\nhttps:",
+    "popularity_rank": 39,
+    "hits_per_day": 315,
+    "use_cases": [
+      "servers",
+      "stability",
+      "customization"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "servers",
+      "stability",
+      "customization"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "void",
+    "url": "https://distrowatch.com/table.php?distribution=void",
+    "name": "Void",
+    "based_on": [
+      "Independent"
+    ],
+    "origin": "Spain",
+    "architecture": [
+      "aarch64",
+      "armv6l",
+      "armv7l",
+      "i686",
+      "x86_64"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "",
+    "popularity_rank": 40,
+    "hits_per_day": 315,
+    "use_cases": [],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "general_use"
+    ],
+    "architectures": [
+      "aarch64",
+      "armv6l",
+      "armv7l",
+      "i686",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "solus",
+    "url": "https://distrowatch.com/table.php?distribution=solus",
+    "name": "Solus",
+    "based_on": [
+      "Independent"
+    ],
+    "origin": "Ireland",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "Budgie",
+      "GNOME",
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "category": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a Linux distribution built from scratch. It uses a forked version of the PiSi package manager, maintained as \"eopkg\" within Solus, and its flagship edition uses the Budgie desktop environment. Budgie was originally developed-in-house, but is now maintained as a separate project by the Buddies of Budgie team. Solus is available in GNOME, KDE Plasma and Xfce editions.\n    \nPopularity (hits per day): 12 months: 41 (313), 6 months: 35 (340), 3 months: 38 (339), 4 weeks: 21 (517), 1 week: 63 (287)Average visitor rating: 7.7/10 from 252 review(s).\n\n\n\n\n\n\nSolus Summary\n\n\nDistribution\nSolus\n\n\nHome",
+    "popularity_rank": 41,
+    "hits_per_day": 313,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "aerynos",
+    "url": "https://distrowatch.com/table.php?distribution=aerynos",
+    "name": "AerynOS",
+    "based_on": [
+      "Independent"
+    ],
+    "origin": "Ireland",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "COSMIC",
+      "GNOME",
+      "KDE Plasma"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "",
+    "popularity_rank": 42,
+    "hits_per_day": 309,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "lite",
+    "url": "https://distrowatch.com/table.php?distribution=lite",
+    "name": "Linux Lite",
+    "based_on": [
+      "Debian",
+      "Ubuntu (LTS)"
+    ],
+    "origin": "New Zealand",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "category": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a beginner-friendly Linux distribution based on Ubuntu's long-term support (LTS) release and featuring the Xfce desktop. Linux Lite primarily targets Windows users. It aims to provide a complete set of applications to assist users with their everyday computing needs, including a full office suite, media players and other essential daily software.\n    \nPopularity (hits per day): 12 months: 43 (305), 6 months: 43 (316), 3 months: 44 (316), 4 weeks: 25 (483), 1 week: 21 (592)Average visitor rating: 8.0/10 from 135 review(s).\n\n\n\n\n\n\nLinux Lite Summary\n\n\nDistribution\nLinux Lite\n\n\nHome Page\nhttps",
+    "popularity_rank": 43,
+    "hits_per_day": 305,
+    "use_cases": [
+      "servers",
+      "stability"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "servers",
+      "stability"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "exton",
+    "url": "https://distrowatch.com/table.php?distribution=exton",
+    "name": "Exton Linux",
+    "based_on": [
+      "Arch",
+      "CRUX",
+      "Debian",
+      "deepin",
+      "Fedora",
+      "Gentoo",
+      "openSUSE",
+      "Puppy",
+      "Slackware"
+    ],
+    "origin": "Sweden",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "Budgie",
+      "Deepin",
+      "Enlightenment",
+      "GNOME",
+      "KDE Plasma",
+      "LXDE",
+      "LXQt",
+      "PIXEL",
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "Gaming",
+      "Live Medium",
+      "Multimedia"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a set of over 15 Linux distributions based on Arch Linux, CRUX, Debian, deepin, Fedora, openSUSE, Puppy Linux and Slackware Linux. They are designed to be lightweight, fast and easy to use. Exton Linux comes with popular pre-configured desktop environments and a set of pre-installed software packages, including web browsers, office suites, multimedia players and development tools. It also includes various customization options, such as the ability to change the appearance of the desktop and install additional software packages. Exton Linux is available in several editions, each tailored to",
+    "popularity_rank": 44,
+    "hits_per_day": 300,
+    "use_cases": [
+      "servers",
+      "stability",
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "servers",
+      "stability",
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "linuxfx",
+    "url": "https://distrowatch.com/table.php?distribution=linuxfx",
+    "name": "Linuxfx",
+    "based_on": [
+      "Ubuntu (LTS)"
+    ],
+    "origin": "Brazil",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a Brazilian Linux distribution based on Ubuntu. It ships with an intuitive Cinnamon desktop user interface designed to facilitate migration of users from Windows. It includes a video management system called Sentinela, a computer vision software with video analytics and software for access control (facial recognition and automatic number plate recognition), object detection, gender, age and mood detection. Other features of the distribution include a new personal assistant, a WX theme for desktop and system applications, and compatibility with software written for Windows (.exe and .msi) t",
+    "popularity_rank": 45,
+    "hits_per_day": 296,
+    "use_cases": [
+      "customization"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "voyager",
+    "url": "https://distrowatch.com/table.php?distribution=voyager",
+    "name": "Voyager Live",
+    "based_on": [
+      "Debian",
+      "Xubuntu"
+    ],
+    "origin": "France",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "GNOME",
+      "Xfce"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium",
+      "Large Language Model"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a really bad bug someplace. Everytime I try to install it now It copies about 3/4 of the files, and then gets an error, and unable to continue. I have downloaded it more than once, put it on different usb stick, but get the same error everytime. I was tryin g to find how to send a email or something but couldn't find where to send it. I will change my vote once this is resolved. Each time was a clean install, and each time got the same error!!\n\n\n\nWas this review helpful?  Yes \n No \n\n\n\n\n\n\nSee all 27 reader reviews of Voyager Live...",
+    "popularity_rank": 46,
+    "hits_per_day": 293,
+    "use_cases": [
+      "servers",
+      "stability",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "servers",
+      "stability",
+      "modern_ui"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "easyos",
+    "url": "https://distrowatch.com/table.php?distribution=easyos",
+    "name": "EasyOS",
+    "based_on": [
+      "Independent"
+    ],
+    "origin": "Australia",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "JWM"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium",
+      "Specialist"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a nice one. Years ago thumb-drive RAM distros frustrated me because I could seldom get persistence to work. EasyOS changes that. Just dd the .img file to a thumb drive (or use EasyDD or Impression or similar), boot from it, and bammo! Yes, partitioning must be done, yes a layered filesystem must be created, but NO, you don't have to do any of it. The OS will ask you a few clear questions and then take care of everything. If all goes well, that is. It went well for me, on two different drives.\r Reading from the USB drive slows OS boot a little bit. Once booted and loaded into RAM, Easy is o",
+    "popularity_rank": 47,
+    "hits_per_day": 289,
+    "use_cases": [],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "general_use"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "parrot",
+    "url": "https://distrowatch.com/table.php?distribution=parrot",
+    "name": "Parrot",
+    "based_on": [
+      "Debian (Stable)"
+    ],
+    "origin": "Italy",
+    "architecture": [
+      "aarch64",
+      "armhf",
+      "riscv64",
+      "x86_64"
+    ],
+    "desktop": [
+      "Enlightenment",
+      "KDE Plasma",
+      "LXQt",
+      "MATE"
+    ],
+    "category": [
+      "Forensics",
+      "Live Medium",
+      "Raspberry Pi",
+      "Security"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a Debian-based, security-oriented distribution featuring a collection of utilities designed for penetration testing, computer forensics, reverse engineering, hacking, privacy, anonymity and cryptography. The product, developed by Frozenbox, comes with MATE as the default desktop environment.\n    \nPopularity (hits per day): 12 months: 48 (277), 6 months: 36 (332), 3 months: 43 (320), 4 weeks: 37 (367), 1 week: 19 (649)Average visitor rating: 8.1/10 from 62 review(s).\n\n\n\n\n\n\nParrot Summary\n\n\nDistribution\nParrot (formerly Parrot Security OS)\n\n\nHome Page\nhttps://parrotsec.org/\n\n\nMailing Lists\n-",
+    "popularity_rank": 48,
+    "hits_per_day": 277,
+    "use_cases": [
+      "customization"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization"
+    ],
+    "architectures": [
+      "aarch64",
+      "armhf",
+      "riscv64",
+      "x86_64"
+    ]
+  },
+  {
+    "slug": "gentoo",
+    "url": "https://distrowatch.com/table.php?distribution=gentoo",
+    "name": "Gentoo Linux",
+    "based_on": [
+      "Independent"
+    ],
+    "origin": "USA",
+    "architecture": [
+      "aarch64",
+      "alpha",
+      "arm",
+      "hppa",
+      "i686",
+      "mips",
+      "powerpc",
+      "ppc64",
+      "sparc64",
+      "x86_64",
+      "x86-64-v3"
+    ],
+    "desktop": [
+      "Awesome",
+      "Blackbox",
+      "Enlightenment",
+      "Fluxbox",
+      "GNOME",
+      "IceWM",
+      "KDE Plasma",
+      "LXDE",
+      "MATE",
+      "Sway",
+      "Openbox",
+      "WMaker",
+      "Xfce"
+    ],
+    "category": [],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a versatile and fast, completely free Linux distribution geared towards developers and network professionals. Unlike other distros, Gentoo Linux has an advanced package management system called Portage. Portage is a true ports system in the tradition of BSD ports, but is Python-based and sports a number of advanced features including dependencies, fine-grained package management, \"fake\" (OpenBSD-style) installs, safe unmerging, system profiles, virtual packages, config file management, and more.\n    \nPopularity (hits per day): 12 months: 49 (251), 6 months: 48 (286), 3 months: 53 (295), 4",
+    "popularity_rank": 49,
+    "hits_per_day": 251,
+    "use_cases": [
+      "customization",
+      "modern_ui"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "customization",
+      "modern_ui"
+    ],
+    "architectures": [
+      "aarch64",
+      "alpha",
+      "arm",
+      "hppa",
+      "i686",
+      "mips",
+      "powerpc",
+      "ppc64",
+      "sparc64",
+      "x86_64",
+      "x86-64-v3"
+    ]
+  },
+  {
+    "slug": "dragonos",
+    "url": "https://distrowatch.com/table.php?distribution=dragonos",
+    "name": "DragonOS",
+    "based_on": [
+      "Debian",
+      "Ubuntu (LTS)"
+    ],
+    "origin": "USA",
+    "architecture": [
+      "x86_64"
+    ],
+    "desktop": [
+      "LXQt"
+    ],
+    "category": [
+      "Desktop",
+      "Live Medium",
+      "Specialist"
+    ],
+    "status": "Active",
+    "latest_version": "",
+    "description": "is a Lubuntu-based desktop distribution which is focused on software defined radio (SDR). The distribution provides a pre-installed suite of the most powerful and accessible open source SDR software. DragonOS has verified support for a range of inexpensive and powerful SDR hardware, including RTL-SDR, HackRF One, LimeSDR, BladeRF, and others.\n    \nPopularity (hits per day): 12 months: 50 (237), 6 months: 85 (193), 3 months: 88 (181), 4 weeks: 129 (141), 1 week: 114 (133)Average visitor rating: 9.3/10 from 3 review(s).\n\n\n\n\n\n\nDragonOS Summary\n\n\nDistribution\nDragonOS\n\n\nHome Page\nhttps://sourcefo",
+    "popularity_rank": 50,
+    "hits_per_day": 237,
+    "use_cases": [
+      "servers",
+      "stability"
+    ],
+    "difficulty": 3,
+    "min_ram_gb": 4,
+    "min_storage_gb": 25,
+    "recommended_for": [
+      "servers",
+      "stability"
+    ],
+    "architectures": [
+      "x86_64"
+    ]
+  }
+]

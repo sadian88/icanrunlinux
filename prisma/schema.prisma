@@ -1,0 +1,95 @@
+generator client {
+  provider             = "prisma-client-py"
+  recursive_type_depth = -1
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Distro {
+  id              Int      @id @default(autoincrement())
+  slug            String   @unique
+  url             String
+  name            String
+  basedOn         String[] @map("based_on")
+  origin          String?
+  architecture    String[]
+  desktop         String[]
+  category        String[]
+  status          String?
+  latestVersion   String?  @map("latest_version")
+  description     String?
+  popularityRank  Int?     @map("popularity_rank")
+  hitsPerDay      Int?     @map("hits_per_day")
+  useCases        String[] @map("use_cases")
+  difficulty      Int      @default(3)
+  minRamGb        Int?     @map("min_ram_gb")
+  minStorageGb    Int?     @map("min_storage_gb")
+  recommendedFor  String[] @map("recommended_for")
+  architectures   String[]
+  packageManager  String?  @default("") @map("package_manager")
+  initSystem      String?  @default("") @map("init_system")
+  releaseModel    String?  @default("") @map("release_model")
+  technicalNotes  String?  @default("") @map("technical_notes")
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+
+  technicalNotesRef DistroTechnicalNote[]
+  benchmarks        DistroBenchmark[]
+  packageStats      DistroPackageStats[]
+
+  @@map("distros")
+}
+
+model AiRecommendation {
+  id              Int      @id @default(autoincrement())
+  queryText       String   @map("query_text")
+  responseJson    Json     @map("response_json")
+  createdAt       DateTime @default(now()) @map("created_at")
+
+  @@map("ai_recommendations")
+}
+
+model DistroTechnicalNote {
+  id        Int      @id @default(autoincrement())
+  distroId  Int      @map("distro_id")
+  content   String
+  source    String   @default("ai")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  distro Distro @relation(fields: [distroId], references: [id], onDelete: Cascade)
+
+  @@map("distro_technical_notes")
+}
+
+model DistroBenchmark {
+  id        Int      @id @default(autoincrement())
+  distroId  Int      @map("distro_id")
+  testName  String   @map("test_name")
+  score     Float
+  unit      String   @default("")
+  sourceUrl String   @default("") @map("source_url")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  distro Distro @relation(fields: [distroId], references: [id], onDelete: Cascade)
+
+  @@map("distro_benchmarks")
+}
+
+model DistroPackageStats {
+  id                  Int      @id @default(autoincrement())
+  distroId            Int      @map("distro_id")
+  totalPackages       Int      @default(0) @map("total_packages")
+  outdatedPackages    Int      @default(0) @map("outdated_packages")
+  vulnerablePackages  Int      @default(0) @map("vulnerable_packages")
+  newestPackages      Int      @default(0) @map("newest_packages")
+  problematicPackages Int      @default(0) @map("problematic_packages")
+  sourceUrl           String   @default("") @map("source_url")
+  createdAt           DateTime @default(now()) @map("created_at")
+
+  distro Distro @relation(fields: [distroId], references: [id], onDelete: Cascade)
+
+  @@map("distro_package_stats")
+}

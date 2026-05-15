@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --arch-blue: #1793D1;
+  --arch-blue-dim: rgba(23, 147, 209, 0.15);
+  --arch-blue-border: rgba(23, 147, 209, 0.25);
+  --bg-base: #0a0a0f;
+  --bg-panel: #111118;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: #e2e2e2;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: rgba(23, 147, 209, 0.35);
+  color: white;
+}
+
+/* Custom scrollbar for webkit — Arch blue */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(23, 147, 209, 0.2);
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(23, 147, 209, 0.4);
+}
+
+/* Monospace utility */
+.font-mono-pixel {
+  font-family: 'Press Start 2P', monospace;
+}
+
+.font-mono-terminal {
+  font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', monospace;
+}
