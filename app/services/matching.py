@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import json
 from typing import Optional
 
 from app.config import MATCH_THRESHOLD
@@ -58,12 +57,14 @@ def _enrich_with_external_data(rows: list[dict]) -> list[dict]:
     benchmarks: dict[int, list[dict]] = {}
     for row in cur.fetchall():
         bid = row[0]
-        benchmarks.setdefault(bid, []).append({
-            "test_name": row[1],
-            "score": row[2],
-            "unit": row[3] or "",
-            "source_url": row[4] or "",
-        })
+        benchmarks.setdefault(bid, []).append(
+            {
+                "test_name": row[1],
+                "score": row[2],
+                "unit": row[3] or "",
+                "source_url": row[4] or "",
+            }
+        )
 
     # Fetch package stats (max total_packages per distro - pick the main repo)
     cur.execute(
@@ -119,7 +120,7 @@ def _insert_distro_from_llm(distro: dict) -> dict:
     cur = conn.cursor()
 
     # Generate embedding (include technical_notes for richer semantic search)
-    tech_notes = distro.get('technical_notes', '') or ''
+    tech_notes = distro.get("technical_notes", "") or ""
     text_for_embedding = (
         f"{distro.get('name', '')} {distro.get('description', '')} "
         f"{' '.join(distro.get('use_cases', []))} "
@@ -329,12 +330,14 @@ def find_compatible_hybrid(
                 "created_at": item.get("created_at"),
                 "updated_at": item.get("updated_at"),
             }
-            results.append({
-                "distro": cached_distro,
-                "similarity": 1.0,
-                "source": "ai_cache",
-                "ai_reason": item.get("why", ""),
-            })
+            results.append(
+                {
+                    "distro": cached_distro,
+                    "similarity": 1.0,
+                    "source": "ai_cache",
+                    "ai_reason": item.get("why", ""),
+                }
+            )
         return results
 
     # ------------------------------------------------------------------
@@ -376,6 +379,7 @@ def find_compatible_hybrid(
     except Exception as exc:
         # LLM call failed – log and fall back to weak DB results
         import logging
+
         logging.getLogger(__name__).warning("LLM fallback failed: %s", exc)
         return db_results
 
@@ -394,30 +398,37 @@ def find_compatible_hybrid(
     for d in llm_distros:
         existing = _fetch_distro_by_slug(d["slug"])
         if existing:
-            llm_results.append({
-                "distro": existing,
-                "similarity": 0.95,
-                "source": "llm",
-                "ai_reason": d.get("why", ""),
-            })
+            llm_results.append(
+                {
+                    "distro": existing,
+                    "similarity": 0.95,
+                    "source": "llm",
+                    "ai_reason": d.get("why", ""),
+                }
+            )
         else:
             try:
                 new_distro = _insert_distro_from_llm(d)
-                llm_results.append({
-                    "distro": new_distro,
-                    "similarity": 0.95,
-                    "source": "llm",
-                    "ai_reason": d.get("why", ""),
-                })
+                llm_results.append(
+                    {
+                        "distro": new_distro,
+                        "similarity": 0.95,
+                        "source": "llm",
+                        "ai_reason": d.get("why", ""),
+                    }
+                )
             except Exception as exc:
                 import logging
+
                 logging.getLogger(__name__).warning("Failed to insert AI distro %s: %s", d.get("slug"), exc)
                 # Still return the distro data even if DB insert failed
-                llm_results.append({
-                    "distro": d,
-                    "similarity": 0.95,
-                    "source": "llm",
-                    "ai_reason": d.get("why", ""),
-                })
+                llm_results.append(
+                    {
+                        "distro": d,
+                        "similarity": 0.95,
+                        "source": "llm",
+                        "ai_reason": d.get("why", ""),
+                    }
+                )
 
     return llm_results

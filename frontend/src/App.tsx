@@ -3,6 +3,7 @@ import { Routes, Route, useNavigate } from "react-router-dom";
 import type { RecommendRequest } from "./types/distro";
 import HomePage from "./pages/HomePage";
 import ResultsPage from "./pages/ResultsPage";
+import PublicFeedbackPage from "./pages/PublicFeedbackPage";
 
 export default function App() {
   const navigate = useNavigate();
@@ -18,6 +19,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<HomePage onSubmit={handleSearch} />} />
       <Route path="/results" element={<ResultsPage />} />
+      <Route path="/feedback" element={<PublicFeedbackPage />} />
     </Routes>
   );
 }

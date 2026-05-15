@@ -153,6 +153,20 @@ export default function SearchWizard({ loading, onSubmit }: Props) {
                       e.currentTarget.style.backgroundColor = "rgba(23, 147, 209, 0.03)";
                     }}
                   />
+                  <button
+                    disabled
+                    className="flex items-center gap-1.5 border px-3 py-1.5 text-xs font-mono-terminal opacity-40 cursor-not-allowed"
+                    style={{
+                      borderColor: "rgba(23, 147, 209, 0.15)",
+                      color: "#555",
+                    }}
+                  >
+                    <Cpu size={12} />
+                    Auto Detection
+                  </button>
+                  <span className="text-[9px] font-mono-terminal" style={{ color: "#444" }}>
+                    coming soon
+                  </span>
                 </div>
 
                 <div className="flex justify-end">

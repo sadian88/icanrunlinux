@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import datetime
 from typing import Optional
 
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class Benchmark(BaseModel):
@@ -56,13 +56,15 @@ class DistroOut(BaseModel):
 
 
 class RecommendRequest(BaseModel):
-    ram_gb: Optional[int] = None
-    storage_gb: Optional[int] = None
-    use_cases: list[str] = []
-    architecture: Optional[str] = None
-    difficulty: Optional[list[int]] = None
-    free_text: Optional[str] = None
-    limit: int = 10
+    ram_gb: Optional[int] = Field(default=None, ge=0, le=1024)
+    storage_gb: Optional[int] = Field(default=None, ge=0, le=10240)
+    use_cases: list[str] = Field(default_factory=list, max_length=10)
+    architecture: Optional[str] = Field(default=None, max_length=50)
+    difficulty: Optional[list[int]] = Field(default=None, max_length=5)
+    free_text: Optional[str] = Field(default=None, max_length=1000)
+    limit: int = Field(default=10, ge=1, le=20)
+
+    model_config = {"extra": "forbid"}
 
 
 class RecommendResult(BaseModel):

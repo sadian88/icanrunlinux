@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 from scraper import enrich_distro_basic, extract_distro_details, extract_popular_distros
 
 POPULARITY_HTML = (
-    '<html><body><table>'
+    "<html><body><table>"
     '<tr><th colspan="3">Last 12 months</th></tr>'
     '<tr><th class="phr1">1</th>'
     '<td class="phr2"><a href="?distribution=mint">Linux Mint</a></td>'
@@ -22,22 +22,22 @@ POPULARITY_HTML = (
     '<tr><th class="phr1">3</th>'
     '<td class="phr2"><a href="?distribution=debian">Debian</a></td>'
     '<td class="phr3">1,555</td></tr>'
-    '</table></body></html>'
+    "</table></body></html>"
 )
 
 DETAIL_HTML = (
-    '<html><body>'
-    '<h1>Linux Mint</h1>'
-    '<table>'
-    '<tr><td>Based on:</td><td>Debian (Stable), Ubuntu (LTS)</td></tr>'
-    '<tr><td>Origin:</td><td>Ireland</td></tr>'
-    '<tr><td>Architecture:</td><td>x86_64</td></tr>'
-    '<tr><td>Desktop:</td><td>Cinnamon, MATE, Xfce</td></tr>'
-    '<tr><td>Category:</td><td>Beginners, Desktop, Live Medium</td></tr>'
-    '<tr><td>Status:</td><td>Active</td></tr>'
-    '</table>'
+    "<html><body>"
+    "<h1>Linux Mint</h1>"
+    "<table>"
+    "<tr><td>Based on:</td><td>Debian (Stable), Ubuntu (LTS)</td></tr>"
+    "<tr><td>Origin:</td><td>Ireland</td></tr>"
+    "<tr><td>Architecture:</td><td>x86_64</td></tr>"
+    "<tr><td>Desktop:</td><td>Cinnamon, MATE, Xfce</td></tr>"
+    "<tr><td>Category:</td><td>Beginners, Desktop, Live Medium</td></tr>"
+    "<tr><td>Status:</td><td>Active</td></tr>"
+    "</table>"
     '<div class="pkgtab">Linux Mint is a great distribution for beginners.</div>'
-    '</body></html>'
+    "</body></html>"
 )
 
 

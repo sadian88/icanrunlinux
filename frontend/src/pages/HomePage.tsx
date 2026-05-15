@@ -1,9 +1,11 @@
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Terminal } from "lucide-react";
+import { History } from "lucide-react";
 import type { RecommendRequest } from "../types/distro";
 import SearchWizard from "../components/SearchWizard";
 import PixelTypewriter from "../components/PixelTypewriter";
+import SearchHistory from "../components/SearchHistory";
 
 const ARCH_BLUE = "#1793D1";
 
@@ -12,6 +14,9 @@ interface Props {
 }
 
 export default function HomePage({ onSubmit }: Props) {
+  const [showHistory, setShowHistory] = useState(false);
+  const navigate = useNavigate();
+
   const handleSearch = useCallback(
     (req: RecommendRequest) => {
       onSubmit(req);
@@ -36,18 +41,28 @@ export default function HomePage({ onSubmit }: Props) {
         >
           <div className="flex items-center gap-2.5">
             <div
-              className="flex items-center justify-center w-7 h-7 border"
-              style={{ borderColor: "rgba(23, 147, 209, 0.3)", backgroundColor: "rgba(23, 147, 209, 0.08)" }}
+              className="flex items-center justify-center w-7 h-7"
             >
-              <Terminal size={14} strokeWidth={2} style={{ color: ARCH_BLUE }} />
+              <img src="/icons.png" alt="I Can Run Linux" className="w-7 h-7" />
             </div>
             <span className="text-xs font-medium tracking-tight font-mono-terminal" style={{ color: "#e2e2e2" }}>
               <span style={{ color: ARCH_BLUE }}>$</span> icanrunlinux
             </span>
           </div>
           <div className="hidden sm:flex items-center gap-6 text-xs font-mono-terminal" style={{ color: "#555" }}>
-            <span className="hover:text-[#1793D1] transition-colors cursor-pointer">how-it-works</span>
-            <span className="hover:text-[#1793D1] transition-colors cursor-pointer">distros</span>
+            <button
+              onClick={() => navigate("/feedback")}
+              className="hover:text-[#1793D1] transition-colors cursor-pointer"
+            >
+              users feedback
+            </button>
+            <button
+              onClick={() => setShowHistory(true)}
+              className="flex items-center gap-1.5 hover:text-[#1793D1] transition-colors cursor-pointer"
+            >
+              <History size={12} />
+              my history
+            </button>
           </div>
         </nav>
 
@@ -85,12 +100,14 @@ export default function HomePage({ onSubmit }: Props) {
         <footer className="border-t mt-auto" style={{ borderColor: "rgba(23, 147, 209, 0.08)" }}>
           <div className="max-w-6xl mx-auto px-6 py-4 flex flex-row items-center text-[10px] font-mono-terminal" style={{ color: "#444" }}>
             <div className="flex items-center gap-2">
-              <Terminal size={12} style={{ color: "#333" }} />
+              <img src="/icons.png" alt="I Can Run Linux" className="w-4 h-4" />
               <span>icanrunlinux</span>
             </div>
           </div>
         </footer>
       </div>
+
+      <SearchHistory open={showHistory} onClose={() => setShowHistory(false)} />
     </div>
   );
 }

@@ -20,3 +20,70 @@ MATCH_THRESHOLD = float(os.getenv("MATCH_THRESHOLD", "0.5"))
 
 # AI cache: minimum similarity to reuse a cached query
 AI_CACHE_THRESHOLD = float(os.getenv("AI_CACHE_THRESHOLD", "0.92"))
+
+# Rate limiting
+RATE_LIMIT_MAX = int(os.getenv("RATE_LIMIT_MAX", "2"))
+RATE_LIMIT_WINDOW = int(os.getenv("RATE_LIMIT_WINDOW", "3600"))  # seconds (1 hour)
+
+# Security
+ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "*")
+MAX_REQUEST_SIZE = int(os.getenv("MAX_REQUEST_SIZE", "10240"))  # 10KB
+
+# Hardware validation keywords (must detect >= 2)
+HARDWARE_KEYWORDS = [
+    # English
+    "ram",
+    "cpu",
+    "gpu",
+    "ssd",
+    "hdd",
+    "nvme",
+    "memory",
+    "storage",
+    "disk",
+    "processor",
+    "graphics",
+    "display",
+    "monitor",
+    "laptop",
+    "desktop",
+    "pc",
+    "hardware",
+    "specs",
+    "spec",
+    "configuration",
+    "intel",
+    "amd",
+    "nvidia",
+    "ryzen",
+    "threadripper",
+    "athlon",
+    "pentium",
+    "celeron",
+    "xeon",
+    "core",
+    "ghz",
+    "thread",
+    "core",
+    "architecture",
+    "mb",
+    "tb",
+    "x86_64",
+    "aarch64",
+    # Spanish
+    "memoria",
+    "procesador",
+    "graficos",
+    "almacenamiento",
+    "pantalla",
+    "portatil",
+    "portátil",
+    "escritorio",
+    "equipo",
+    "núcleos",
+    "nucleos",
+    "hilos",
+    "tarjeta",
+    "grafica",
+    "gráfica",
+]

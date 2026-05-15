@@ -40,9 +40,7 @@ def get_embedding_client() -> tuple[httpx.AsyncClient, str]:
     return httpx.AsyncClient(headers=headers, timeout=60), api_url
 
 
-async def fetch_embeddings(
-    client: httpx.AsyncClient, url: str, texts: list[str]
-) -> list[list[float]]:
+async def fetch_embeddings(client: httpx.AsyncClient, url: str, texts: list[str]) -> list[list[float]]:
     model = os.getenv("EMBEDDINGS_MODEL", "text-embedding-3-small")
     dims = os.getenv("EMBEDDINGS_DIMENSIONS")
     payload = {"input": texts, "model": model}

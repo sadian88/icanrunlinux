@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Terminal, ArrowLeft, ChevronDown, ChevronUp } from "lucide-react";
+import { ArrowLeft, ChevronDown, ChevronUp } from "lucide-react";
 import type { RecommendRequest, RecommendResult } from "../types/distro";
 import { recommend } from "../services/api";
+import FeedbackForm from "../components/FeedbackForm";
 
 const ARCH_BLUE = "#1793D1";
 
@@ -244,6 +245,7 @@ export default function ResultsPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [showAll, setShowAll] = useState(false);
+  const [sessionToken, setSessionToken] = useState<string | null>(null);
 
   useEffect(() => {
     if (!request) {
@@ -258,7 +260,10 @@ export default function ResultsPage() {
       setError(null);
       try {
         const data = await recommend(request);
-        if (!cancelled) setResults(data);
+        if (!cancelled) {
+          setResults(data.results);
+          setSessionToken(data.session_token);
+        }
       } catch (err) {
         if (!cancelled) setError(err instanceof Error ? err.message : "Something went wrong");
       } finally {
@@ -288,11 +293,8 @@ export default function ResultsPage() {
           style={{ borderColor: "rgba(23, 147, 209, 0.12)" }}
         >
           <div className="flex items-center gap-2.5">
-            <div
-              className="flex items-center justify-center w-7 h-7 border"
-              style={{ borderColor: "rgba(23, 147, 209, 0.3)", backgroundColor: "rgba(23, 147, 209, 0.08)" }}
-            >
-              <Terminal size={14} strokeWidth={2} style={{ color: ARCH_BLUE }} />
+            <div className="flex items-center justify-center w-7 h-7">
+              <img src="/icons.png" alt="I Can Run Linux" className="w-7 h-7" />
             </div>
             <span className="text-xs font-medium tracking-tight font-mono-terminal" style={{ color: "#e2e2e2" }}>
               <span style={{ color: ARCH_BLUE }}>$</span> icanrunlinux
@@ -305,6 +307,14 @@ export default function ResultsPage() {
             <ArrowLeft size={10} />
             new search
           </button>
+          <div className="hidden sm:flex items-center gap-4 text-sm font-mono-terminal">
+            <button
+              onClick={() => navigate("/feedback")}
+              className="text-zinc-500 hover:text-[#1793D1] transition-colors"
+            >
+              feedback
+            </button>
+          </div>
         </nav>
 
         <main className="flex-1 px-6">
@@ -387,6 +397,10 @@ export default function ResultsPage() {
                   </button>
                 )}
 
+                {sessionToken && !loading && results.length > 0 && (
+                  <FeedbackForm sessionToken={sessionToken} />
+                )}
+
                 {/* Bottom prompt */}
                 <div className="font-mono-terminal text-sm text-[#1793D1]/50 pt-4">
                   <span className="text-[#1793D1]">$</span> <span className="animate-pulse">_</span>
@@ -400,7 +414,7 @@ export default function ResultsPage() {
         <footer className="border-t mt-auto" style={{ borderColor: "rgba(23, 147, 209, 0.08)" }}>
           <div className="max-w-6xl mx-auto px-6 py-4 flex flex-row items-center text-sm font-mono-terminal" style={{ color: "#444" }}>
             <div className="flex items-center gap-2">
-              <Terminal size={12} style={{ color: "#333" }} />
+              <img src="/icons.png" alt="I Can Run Linux" className="w-4 h-4" />
               <span>icanrunlinux</span>
             </div>
           </div>

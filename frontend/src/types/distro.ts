@@ -59,3 +59,46 @@ export interface RecommendRequest {
   free_text?: string;
   limit?: number;
 }
+
+export interface RecommendResponse {
+  session_token: string;
+  results: RecommendResult[];
+}
+
+export interface FeedbackSubmit {
+  session_token: string;
+  rating?: number | null;
+  comment?: string | null;
+}
+
+export interface FeedbackEntry {
+  rating: number | null;
+  comment: string | null;
+  created_at: string | null;
+  search_query: string | null;
+}
+
+export interface SearchHistoryEntry {
+  session_token: string;
+  request_data: RecommendRequest | null;
+  created_at: string | null;
+  feedback: FeedbackEntry | null;
+}
+
+export interface HistoryResponse {
+  sessions: SearchHistoryEntry[];
+  ip: string;
+}
+
+export interface PublicFeedbackEntry {
+  rating: number | null;
+  comment: string | null;
+  search_query: string | null;
+  request_data: RecommendRequest | null;
+  created_at: string | null;
+}
+
+export interface PublicFeedbackResponse {
+  items: PublicFeedbackEntry[];
+  total: number;
+}

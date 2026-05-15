@@ -93,3 +93,29 @@ model DistroPackageStats {
 
   @@map("distro_package_stats")
 }
+
+model SearchHistory {
+  id           Int      @id @default(autoincrement())
+  ipAddress    String   @map("ip_address")
+  sessionToken String   @unique @map("session_token")
+  requestData  Json     @map("request_data")
+  createdAt    DateTime @default(now()) @map("created_at")
+
+  feedbacks SearchFeedback[]
+
+  @@map("search_history")
+}
+
+model SearchFeedback {
+  id           Int      @id @default(autoincrement())
+  sessionToken String   @map("session_token")
+  ipAddress    String   @map("ip_address")
+  searchQuery  String?  @map("search_query")
+  rating       Int?
+  comment      String?
+  createdAt    DateTime @default(now()) @map("created_at")
+
+  search SearchHistory @relation(fields: [sessionToken], references: [sessionToken])
+
+  @@map("search_feedback")
+}
