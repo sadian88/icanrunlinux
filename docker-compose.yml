@@ -50,8 +50,6 @@ services:
       dockerfile: Dockerfile
     container_name: icanrunlinux-web
     restart: unless-stopped
-    ports:
-      - "${FRONTEND_PORT:-3000}:80"
     depends_on:
       - backend
 
