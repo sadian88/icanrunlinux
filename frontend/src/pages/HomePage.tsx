@@ -41,11 +41,16 @@ export default function HomePage({ onSubmit }: Props) {
         >
           <div className="flex items-center gap-2.5">
             <div
-              className="flex items-center justify-center w-7 h-7"
+              className="flex items-center justify-center w-7 h-7 cursor-pointer"
+              onClick={() => navigate("/")}
             >
               <img src="/icons.png" alt="I Can Run Linux" className="w-7 h-7" />
             </div>
-            <span className="text-xs font-medium tracking-tight font-mono-terminal" style={{ color: "#e2e2e2" }}>
+            <span
+              className="text-xs font-medium tracking-tight font-mono-terminal cursor-pointer"
+              style={{ color: "#e2e2e2" }}
+              onClick={() => navigate("/")}
+            >
               <span style={{ color: ARCH_BLUE }}>$</span> icanrunlinux
             </span>
           </div>
