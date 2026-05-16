@@ -53,8 +53,35 @@ if [ "$DISTRO_COUNT" = "0" ] || [ -z "$DISTRO_COUNT" ]; then
         echo "[entrypoint] ERROR: migration failed"
         exit 1
     }
+    echo "[entrypoint] Running scraper_repology.py (package statistics)..."
+    python scripts/scraper_repology.py || {
+        echo "[entrypoint] WARNING: scraper_repology failed, continuing..."
+    }
+    echo "[entrypoint] Running scraper_phoronix.py (benchmarks)..."
+    python scripts/scraper_phoronix.py || {
+        echo "[entrypoint] WARNING: scraper_phoronix failed, continuing..."
+    }
 else
     echo "[entrypoint] $DISTRO_COUNT distros already in DB. Skipping scraping."
+fi
+
+# Check if Repology/Package stats are missing → run supplementary scrapers
+PKG_COUNT=$(psql "$DATABASE_URL" -t -c "SELECT COUNT(*) FROM distro_package_stats" 2>/dev/null | tr -d '[:space:]')
+if [ "$PKG_COUNT" = "0" ] || [ -z "$PKG_COUNT" ]; then
+    echo "[entrypoint] No package stats found. Running scraper_repology.py..."
+    mkdir -p data
+    python scripts/scraper_repology.py || {
+        echo "[entrypoint] WARNING: scraper_repology failed, continuing..."
+    }
+fi
+
+# Check if Benchmarks are missing → run Phoronix scraper
+BM_COUNT=$(psql "$DATABASE_URL" -t -c "SELECT COUNT(*) FROM distro_benchmarks" 2>/dev/null | tr -d '[:space:]')
+if [ "$BM_COUNT" = "0" ] || [ -z "$BM_COUNT" ]; then
+    echo "[entrypoint] No benchmarks found. Running scraper_phoronix.py..."
+    python scripts/scraper_phoronix.py || {
+        echo "[entrypoint] WARNING: scraper_phoronix failed, continuing..."
+    }
 fi
 
 echo "[entrypoint] Starting FastAPI server..."
