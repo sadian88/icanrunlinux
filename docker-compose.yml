@@ -50,6 +50,9 @@ services:
       dockerfile: Dockerfile
     container_name: icanrunlinux-web
     restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.services.icanrunlinux-frontend.loadbalancer.server.port=3000"
     depends_on:
       - backend
 
