@@ -29,6 +29,14 @@ export default function FeedbackForm({ sessionToken }: Props) {
         comment: comment.trim() || undefined,
       });
       setSubmitted(true);
+      const gtag = (window as any)?.gtag;
+      if (gtag) {
+        gtag("event", "feedback_submitted", {
+          has_rating: rating > 0,
+          rating_value: rating > 0 ? rating : undefined,
+          has_comment: comment.trim().length > 0,
+        });
+      }
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to submit feedback");
     } finally {

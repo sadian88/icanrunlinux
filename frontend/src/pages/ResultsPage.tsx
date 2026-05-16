@@ -255,6 +255,12 @@ export default function ResultsPage() {
 
     let cancelled = false;
 
+    const gtag = (...args: unknown[]) => {
+      if (typeof window !== "undefined" && (window as any).gtag) {
+        (window as any).gtag(...args);
+      }
+    };
+
     const fetchResults = async () => {
       setLoading(true);
       setError(null);
@@ -263,6 +269,12 @@ export default function ResultsPage() {
         if (!cancelled) {
           setResults(data.results);
           setSessionToken(data.session_token);
+          gtag("event", "search_results_viewed", {
+            result_count: data.results.length,
+            sources: [...new Set(data.results.map((r) => r.source))].join(","),
+            has_freetext: !!request?.free_text,
+            use_cases_count: request?.use_cases?.length ?? 0,
+          });
         }
       } catch (err) {
         if (!cancelled) setError(err instanceof Error ? err.message : "Something went wrong");

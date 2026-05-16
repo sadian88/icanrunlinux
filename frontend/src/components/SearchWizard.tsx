@@ -53,7 +53,24 @@ export default function SearchWizard({ loading, onSubmit }: Props) {
     );
   };
 
+  const gtag = (...args: unknown[]) => {
+    if (typeof window !== "undefined" && (window as any).gtag) {
+      (window as any).gtag(...args);
+    }
+  };
+
   const handleNext = () => {
+    if (step === 1) {
+      gtag("event", "wizard_step_1_complete", {
+        has_hardware: hardwareText.trim().length > 0,
+        hardware_length: hardwareText.trim().length,
+      });
+    } else if (step === 2) {
+      gtag("event", "wizard_step_2_complete", {
+        use_cases_count: selectedUses.length,
+        selected_use_cases: selectedUses.join(","),
+      });
+    }
     setDirection(1);
     setStep((s) => Math.min(s + 1, TOTAL_STEPS));
   };
@@ -66,6 +83,14 @@ export default function SearchWizard({ loading, onSubmit }: Props) {
   const handleSubmit = useCallback(() => {
     const parts = [hardwareText, needsText].filter(Boolean);
     const freeText = parts.join(" | ");
+
+    gtag("event", "search_submitted", {
+      has_hardware: hardwareText.trim().length > 0,
+      has_needs: needsText.trim().length > 0,
+      has_use_cases: selectedUses.length > 0,
+      use_cases_count: selectedUses.length,
+      text_length: freeText.length,
+    });
 
     const req: RecommendRequest = {
       free_text: freeText || undefined,
